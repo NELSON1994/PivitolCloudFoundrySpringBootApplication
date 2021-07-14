@@ -1,6 +1,9 @@
 applications:
-  - name: Demo App for PFC
-path: target\pcf-app.jar
-domain: pivitolcloudfoundry.io
-memory: 950M
-instances: 1
+- name: Demo App for PFC
+  path: target\pcf-app.jar
+  domain: cfapps.io
+  memory: 950M
+  instances: 1
+#for the service eg mysqldb
+  services:
+    -mysqldb
