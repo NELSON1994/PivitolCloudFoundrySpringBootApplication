@@ -1,0 +1,6 @@
+applications:
+  - name: Demo App for PFC
+path: target\pcf-app.jar
+domain: pivitolcloudfoundry.io
+memory: 800M
+instances: 1
